@@ -73,6 +73,8 @@ class War {
       this.saxonArmy.splice(aSaxonIndex, 1);
     }
 
+    // this.saxonArmy = this.saxonArmy.filter((saxon => saxon.health > 0))
+
     return answerFonction;
   }
 
